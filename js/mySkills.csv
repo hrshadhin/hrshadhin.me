@@ -1,0 +1,99 @@
+source,target,value
+Web Development,HTML,0
+Web Development,HTML5,0
+Web Development,CSS,0
+Web Development,SASS,0
+Search,Elasticsearch,2.5
+Search,Algolia Search,2.5
+Search,Amazon Cloud Search,2.5
+Infrastructure,PaaS,2.5
+Infrastructure,IaaS,2.5
+Infrastructure,On-premises,2.5
+Infrastructure,Hybrid Infrastructure,2.5
+Templating,Blade,2.5
+Templating,Jinja,2.5
+Templating,Liquid,2.5
+Templating,Jade,2.5
+UI Frameworks,Bootstrap,2.5
+UI Frameworks,Ionic,2.5
+UI Frameworks,QT,2.5
+UI Frameworks,GTK,2.5
+Frameworks & Libraries,Django,2.0
+Frameworks & Libraries,Django Rest,2.0
+Frameworks & Libraries,Flask,2.0
+Frameworks & Libraries,Symfony,2.0
+Frameworks & Libraries,Laravel,2.0
+Frameworks & Libraries,Lumen,2.0
+Frameworks & Libraries,Slim,2.0
+Frameworks & Libraries,JQuery,2.0
+Frameworks & Libraries,VueJs,2.0
+Frameworks & Libraries,SailsJs,2.0
+Frameworks & Libraries,ExpressJS,2.0
+Frameworks & Libraries,Qt,2.0
+Frameworks & Libraries,PyQT,2.0
+Languages & Scripting,Python,2.0
+Languages & Scripting,PHP,2.0
+Languages & Scripting,Bash,2.0
+Languages & Scripting,Javascript,2.0
+Languages & Scripting,NodeJs,2.0
+Languages & Scripting,Go,2.0
+Languages & Scripting,C,2.0
+Languages & Scripting,C++,2.0
+Languages & Scripting,SQL,2.0
+Protocols,HTTPS,0
+Protocols,HTTP2,0
+Protocols,SMTP,0
+Protocols,SSH,0
+Protocols,SOAP,0
+Protocols,REST,0
+Protocols,JSON,0
+Automated Testing,Selenium,2.0
+Automated Testing,Unit Testing,2.0
+CI/CD,Codeship,0
+CI/CD,Jenkins,0
+CI/CD,Travis CI,0
+Microservices / Containers,Docker,0
+Microservices / Containers,Docker Hub,0
+Microservices / Containers,Docker Cloud,0
+Microservices / Containers,Linux,0
+Microservices / Containers,Kubernetes,0
+Microservices / Containers,Minikube,0
+Virtualization,VirtualBox,0
+Virtualization,Hyper-V,0
+Virtualization,HyperKit (used by Docker for Mac),0
+Databases,MySQL,2.5
+Databases,PostgreSQL,2.5
+Databases,MongoDB,2.5
+Databases,MEMSQL,2.5
+Databases,Redis,2.5
+Databases,SQlite,2.5
+Databases,Amazon RDS,2.5
+Platforms & Clouds,Amazon AWS,2.5
+Platforms & Clouds,Google Cloud,2.5
+Platforms & Clouds,IBM Cloud,2.5
+Platforms & Clouds,DigitalOcean,2.5
+Creative & Design,GIMP,2.5
+Creative & Design,Inkscape,2.5
+Creative & Design,Draw.io,2.5
+IDEs,PyCharm,2.5
+IDEs,Webstorm,2.5
+IDEs,PhpStrom,2.5
+IDEs,QT Creator,2.5
+IDEs,CodeBlocks,2.5
+IDEs,Gedit,2.5
+Source Control,Git,2.5
+Source Control,Github,2.5
+Source Control,Gitlab,2.5
+Source Control,Bitbucket,2.5
+Collaboration,Slack,2.5
+Collaboration,Trello,2.5
+Collaboration,Jira,2.5
+Collaboration,Asana,2.5
+Collaboration,Hangouts,2.5
+Collaboration,Telegram,2.5
+OS & Distribution,Debian,2.0
+OS & Distribution,Ubuntu,2.0
+OS & Distribution,Linux Mint,2.0
+OS & Distribution,Arch Linux,2.0
+OS & Distribution,Cent OS,2.0
+OS & Distribution,Redhat,2.0
