@@ -6,14 +6,14 @@ title: H.R. Shadhin
 # Short description of your site
 description: Coding Is My Passion
 
-# baseurl: http://hrshadhin.me
+# baseurl: https://hrshadhin.me
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me/Contact: "aboutme"
-  Blog: "http://blog.hrshadhin.me"
+  Blog: "https://blog.hrshadhin.me"
   Projects: "projects"
   Visualize My Experience: 
     - Skills By Tech: "infographic"
@@ -61,39 +61,18 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
- # rss: false
   email: "hello@hrshadhin.me"
   github: hrshadhin
   stackoverflow: "3132311/tuxbot"
   twitter: hrshadhin
-#  reddit: yourname
-#  google-plus: +DeanAttali
+  reddit: hrshadhin
   linkedin: hrshadhin
-#  xing: yourname
-#  snapchat: deanat78
-#  instagram: deanat78
   youtube: user/crazicoder
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-
-# Select which share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-168252467-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -110,31 +89,6 @@ share-links-active:
 #  uri: "demo.wiki.pro"
 #  opt-out: true
 
-# --- Comments --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
-# If you want to use just-comments fill with the API Key
-#just-comments: "ABCD-EFGH-IJKL"
-
-# To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
-
-# Staticman support
-# staticman:
-#   repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#   branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-#   endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
-#   reCaptcha:
-#     # reCaptcha for Staticman (OPTIONAL)
-#     # If you use reCaptcha, you must also set these parameters in staticman.yml
-#     siteKey  : # Use your own site key, you need to apply for one on Google
-#     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
-
-# --- Misc --- #
-
-# Facebook App ID
-# fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -149,9 +103,6 @@ title-separator: "|"
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Dhaka"
 markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-# paginate: 5
 
 kramdown:
   input: GFM
@@ -165,19 +116,11 @@ defaults:
       layout: "page"
       show-avatar: true
 
-# Use tags index page and make tags on each post clickable
-# link-tags: true
-
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
-  - CNAME
-  - Dockerfile
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
-  - Vagrantfile
 
 # prose.io config
 prose:
@@ -193,47 +136,4 @@ prose:
     - /css
     - /img
     - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
 
-plugins:
-  # - jekyll-paginate
-  # - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
