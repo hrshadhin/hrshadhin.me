@@ -12,7 +12,7 @@ It's a static website that build with [Jekyll](https://jekyllrb.com/) using [Bea
 - Install a full Ruby development environment.
 - Install Jekyll and bundler gems.
     `gem install jekyll bundler`
-- Change into your `hrshadhin.me`
+- Change into your `hrshadhin.me` directory
     `cd hrshadhin.me`
 - Build the site and make it available on a local server.
     `bundle exec jekyll serve` or `jekyll serve`

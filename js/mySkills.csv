@@ -21,6 +21,9 @@ UI Frameworks,GTK,2.5
 Frameworks & Libraries,Django,2.0
 Frameworks & Libraries,Django Rest,2.0
 Frameworks & Libraries,Flask,2.0
+Frameworks & Libraries,Sanic,2.0
+Frameworks & Libraries,AIOHTTP,2.0
+Frameworks & Libraries,GIN,2.0
 Frameworks & Libraries,Symfony,2.0
 Frameworks & Libraries,Laravel,2.0
 Frameworks & Libraries,Lumen,2.0
@@ -40,27 +43,31 @@ Languages & Scripting,Go,2.0
 Languages & Scripting,C,2.0
 Languages & Scripting,C++,2.0
 Languages & Scripting,SQL,2.0
-Protocols,HTTPS,0
-Protocols,HTTP2,0
-Protocols,SMTP,0
-Protocols,SSH,0
-Protocols,SOAP,0
-Protocols,REST,0
-Protocols,JSON,0
-Automated Testing,Selenium,2.0
-Automated Testing,Unit Testing,2.0
+Testing,Selenium,2.0
+Testing,Unit,2.0
+Testing,Intrigration,2.0
+CI/CD,GitLab CI,0
+CI/CD,GitHub Actions,0
 CI/CD,Codeship,0
 CI/CD,Jenkins,0
 CI/CD,Travis CI,0
-Microservices / Containers,Docker,0
-Microservices / Containers,Docker Hub,0
-Microservices / Containers,Docker Cloud,0
-Microservices / Containers,Linux,0
-Microservices / Containers,Kubernetes,0
-Microservices / Containers,Minikube,0
+Containers,Docker,0
+Containers,LXC,0
+Containers,LXD,0
+Containers,Containerd,0
+Containers,Singularity,0
+Orchestration,Docker Swarm,0
+Orchestration,Kubernetes,0
+Orchestration,Mesos,0
+Orchestration,Podman,0
+Clouds,AWS,2.5
+Clouds,GCP,2.5
+Clouds,IBM,2.5
+Clouds,DigitalOcean,2.5
+Clouds,Azure,2.5
+Virtualization,KVM,0
 Virtualization,VirtualBox,0
 Virtualization,Hyper-V,0
-Virtualization,HyperKit (used by Docker for Mac),0
 Databases,MySQL,2.5
 Databases,PostgreSQL,2.5
 Databases,MongoDB,2.5
@@ -68,22 +75,21 @@ Databases,MEMSQL,2.5
 Databases,Redis,2.5
 Databases,SQlite,2.5
 Databases,Amazon RDS,2.5
-Platforms & Clouds,Amazon AWS,2.5
-Platforms & Clouds,Google Cloud,2.5
-Platforms & Clouds,IBM Cloud,2.5
-Platforms & Clouds,DigitalOcean,2.5
 Creative & Design,GIMP,2.5
 Creative & Design,Inkscape,2.5
 Creative & Design,Draw.io,2.5
 IDEs,PyCharm,2.5
-IDEs,Webstorm,2.5
 IDEs,PhpStrom,2.5
+IDEs,VsCode,2.5
+IDEs,Webstorm,2.5
 IDEs,QT Creator,2.5
 IDEs,CodeBlocks,2.5
-IDEs,Gedit,2.5
+Text Editor,Gedit,2.5
+Text Editor,Nano,2.5
+Text Editor,Vim,2.5
 Source Control,Git,2.5
-Source Control,Github,2.5
-Source Control,Gitlab,2.5
+Source Control,GitHub,2.5
+Source Control,GitLab,2.5
 Source Control,Bitbucket,2.5
 Collaboration,Slack,2.5
 Collaboration,Trello,2.5
@@ -97,3 +103,9 @@ OS & Distribution,Linux Mint,2.0
 OS & Distribution,Arch Linux,2.0
 OS & Distribution,Cent OS,2.0
 OS & Distribution,Redhat,2.0
+Misc,HTTP,0
+Misc,HTTP2,0
+Misc,SMTP,0
+Misc,gRPC,0
+Misc,REST,0
+Misc,JSON,0
