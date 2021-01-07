@@ -1,4 +1,4 @@
-forceLayoutVisualize("/js/mySkills.csv");
+forceLayoutVisualize("/assets/files/skills.csv");
 
 function forceLayoutVisualize(csvFileValue) {
     // get the data

@@ -36,3 +36,7 @@ text {
   font: 16px sans-serif;
   pointer-events: none;
 }
+
+.page-dark-mode text {
+  fill: #fff;
+}

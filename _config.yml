@@ -1,65 +1,43 @@
-# --- General options --- #
+# This config file is meant for settings that affect entire website.
 
 # Name of website
 title: H.R. Shadhin
 
+# Name to show in the footer
+author: H.R. Shadhin
+
 # Short description of your site
-description: Coding Is My Passion
+share-description: Software Engineer / System Admin / GNU+Linux Lover
 
-# baseurl: https://hrshadhin.me
 
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
+# --- List of links in the navigation bar --- #
 navbar-links:
-  About Me/Contact: "aboutme"
   Blog: "https://blog.hrshadhin.me"
   Projects: "projects"
-  Visualize My Experience: 
+  About Me/Contact: "aboutme"
+  Experience: 
     - Skills By Tech: "infographic"
-    - Areas of Expertise: "areasexpertise"
-    - My Resume: "resume"
+    - Expertise: "areasexpertise"
+    - Resume: "resume"
 
-# Image to show in the navigation bar - image must be a square (width = height)
+# --- Logo --- #
+
+# Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/assets/img/avatar-icon.png"
 
-# If you want to have an image logo in the top-left corner instead of the title text,
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
+
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-# title-img: /path/to/image
+#title-img: /path/to/image
 
-# --- Background colour/image options --- #
 
-# Personalize the colors in your website. Colour values can be any valid CSS colour
+# --- Footer social media links --- #
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-
-# Alternatively, the navbar, footer, and page background can be set to use background images
-# instead of colour
-
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: H.R. Shadhin
-
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "hello@hrshadhin.me"
   github: hrshadhin
@@ -69,40 +47,39 @@ social-network-links:
   linkedin: hrshadhin
   youtube: user/crazicoder
 
-# --- Web Statistics Section --- #
+# The keywords to associate with your website, for SEO purposes
+keywords: "H.R. Shadhin,Software Engineer,System Admin,GNU+Linux Lover,Coding"
 
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-168252467-1"
+# --- Colours / background image --- #
 
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+# Personalize the colours in your website. Colour values can be any valid CSS colour
 
-# Google Tag Manager ID
-#gtm: ""
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
-
 #matomo:
 #  site_id: "9"
 #  uri: "demo.wiki.pro"
 #  opt-out: true
 
-
-# Excerpt Word Length
-# Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
-
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "|"
-
-# --- Don't need to touch anything below here (but you can if you want) --- #
+# --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Dhaka"
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   input: GFM
@@ -111,29 +88,11 @@ kramdown:
 defaults:
   -
     scope:
-      path: "" # all files
+      path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
-      show-avatar: true
 
 # Exclude these files from production site
 exclude:
-  - CHANGELOG.md
   - LICENSE
   - README.md
-
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-
