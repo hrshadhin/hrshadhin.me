@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for link in site.navbar-links -%}
+{%- if link[1].first -%}
+    {%- for childlink in link[1] -%}
+    {%- for linkparts in childlink %}
+    <url>
+        <loc>{{ site.baseurl }}/{{ linkparts[1] }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    {%- endfor %}
+    {%- endfor %}
+{%- else -%}
+{% unless link[0] == "Blog" %}
+    <url>
+        <loc>{{ site.baseurl }}/{{ link[1] }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+{%- endunless %}
+{%- endif %}
+{%- endfor %}
+</urlset>

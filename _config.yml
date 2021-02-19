@@ -9,6 +9,8 @@ author: H.R. Shadhin
 # Short description of your site
 share-description: Software Engineer / System Admin / GNU+Linux Lover
 
+# site base url
+baseurl: https://hrshadhin.me
 
 # --- List of links in the navigation bar --- #
 navbar-links:

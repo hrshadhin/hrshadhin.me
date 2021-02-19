@@ -1,0 +1,13 @@
+---
+layout: null
+---
+Sitemap: {{site.baseurl}}/sitemap.xml
+
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
