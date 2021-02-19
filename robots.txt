@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-Sitemap: {{site.baseurl}}/sitemap.xml
+Sitemap: {{site.seo-base-url}}/sitemap.xml
 
 User-agent: *
 Disallow: /

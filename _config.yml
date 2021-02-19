@@ -10,7 +10,8 @@ author: H.R. Shadhin
 share-description: Software Engineer / System Admin / GNU+Linux Lover
 
 # site base url
-baseurl: https://hrshadhin.me
+baseurl: # keep it empty, otherwise assets file will massup
+seo-base-url: https://hrshadhin.me
 
 # --- List of links in the navigation bar --- #
 navbar-links:
