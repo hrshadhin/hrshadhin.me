@@ -7,13 +7,15 @@ layout: null
 {%- if link[1].first -%}
     {%- for childlink in link[1] -%}
     {%- for linkparts in childlink %}
+    {%- unless linkparts[0] == "Resume" %}
     <url>
         <loc>{{ site.seo-base-url }}/{{ linkparts[1] }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
-    {%- endfor %}
+    {%- endunless %}
+    {%- endfor -%}
     {%- endfor %}
 {%- else -%}
 {% unless link[0] == "Blog" %}

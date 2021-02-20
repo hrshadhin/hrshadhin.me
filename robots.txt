@@ -7,7 +7,24 @@ User-agent: *
 Disallow: /
 
 User-agent: Googlebot
-Disallow:
+Allow: /
+Disallow: /resume
 
 User-agent: Bingbot
-Disallow:
+Allow: /
+Disallow: /resume
+
+User-agent: ia_archiver
+Allow: /
+Disallow: /resume
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Slurp
+Allow: /
+Disallow: /resume
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /resume
