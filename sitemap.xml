@@ -3,6 +3,12 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.seo-base-url }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 {%- for link in site.navbar-links -%}
 {%- if link[1].first -%}
     {%- for childlink in link[1] -%}
@@ -12,7 +18,7 @@ layout: null
         <loc>{{ site.seo-base-url }}/{{ linkparts[1] }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.5</priority>
     </url>
     {%- endunless %}
     {%- endfor -%}
@@ -23,7 +29,7 @@ layout: null
         <loc>{{ site.seo-base-url }}/{{ link[1] }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.5</priority>
     </url>
 {%- endunless %}
 {%- endif %}
